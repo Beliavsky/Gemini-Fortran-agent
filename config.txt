@@ -1,0 +1,10 @@
+model: gemini-2.5-pro-exp-03-25
+max_attempts: 10
+max_time: 1000
+prompt_file: prompt_cauchy.txt
+source_file: cauchy.f90
+run_executable: yes
+print_code: yes
+print_compiler_error_messages: yes
+compiler: gfortran
+compiler_options: -O0 -fmax-errors=1 -Wall -Werror=unused-parameter -Werror=unused-variable -Werror=unused-function -Wno-maybe-uninitialized -Wno-surprising -fbounds-check -static -g

@@ -1,0 +1,1 @@
+Write a Fortran program to print the primes up to 100.

@@ -1,0 +1,5 @@
+Do a Fortran simulation to find the optimal trimmed mean estimator of
+the location of the Cauchy distribution, trying trimming proportions
+of 0%, 10%, 20%, 30%, 40%, and 45%. Declare real variables as
+real(kind=dp) with dp a module constant, and put procedures in a
+module. Have the simulation use 100 samples of 1000 observations each.

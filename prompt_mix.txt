@@ -1,0 +1,13 @@
+Write a Fortran subroutine in a module that fits a finite mixture of
+normals with a specified # of components to univariate data, using the
+EM algorithm, and write a main program that tests it for data
+simulated from a known mixture distribution. Declare real variables as
+real(kind=dp) with
+
+integer, parameter :: dp = kind(1.0d0)
+
+Define a derived type to store the parameters of a finite mixture, and
+write a subroutine to display the parameters in a formatted table. Use
+the subroutine to display the true and estimated parameters. Declare
+procedures as pure or elemental when feasible.
+
