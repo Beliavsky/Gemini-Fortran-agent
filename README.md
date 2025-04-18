@@ -1,5 +1,5 @@
 # Gemini-Fortran-agent
-Python script that uses Gemini LLMs to create Fortran programs, iterating with compiler error messages until they compile. You need to [get a free Gemini API key](https://ai.google.dev/gemini-api/docs/api-key) and store it in `gemini_key.txt`. Sample output:
+Python script that uses Gemini LLMs to create Fortran programs, iterating with compiler error messages until they compile. You need to [get a free Gemini API key](https://ai.google.dev/gemini-api/docs/api-key) and store it in `gemini_key.txt`. I made similar Fortran coding agents using [Groq Cloud](https://github.com/Beliavsky/Groq-Fortran-agent) and [OpenAI](https://github.com/Beliavsky/OpenAI-Fortran-agent). Sample output:
 
 ```
 c:\python\code\gemini>python xgemini.py
